@@ -9,7 +9,7 @@ export const HeaderNav = () => {
                 {/* Logo redondeado */}
                 <Navbar.Brand as={NavLink} to="/inicio" className="d-flex align-items-center">
                     <Image
-                        src="/images/logo.png"
+                        src={logo}
                         roundedCircle
                         width={70}
                         height={70}
