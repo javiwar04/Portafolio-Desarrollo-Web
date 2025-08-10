@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import corporativo from '../assets/corporativo.png';
+import inventarios from '../assets/inventarios.png';
+import aplicaciones from '../assets/aplicaciones.jpg';
+
 export const Inicio = () => {
   return (
     <div className="container my-5 py-5">

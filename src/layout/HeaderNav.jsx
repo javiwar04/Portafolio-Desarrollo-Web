@@ -2,6 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav, Container, Image } from 'react-bootstrap';
 
+// Importa el logo
+import logo from '../assets/logo.png';
+
 export const HeaderNav = () => {
     return (
         <Navbar bg="light" expand="lg" className="border-bottom py-3">
